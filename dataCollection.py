@@ -40,6 +40,8 @@ while True:
         # Get the shape of the cropped image
         imgCropShape = imgCrop.shape
 
+        
+
         # Resize and center the cropped image in imgWhite
         aspectRatio = h / w
         if aspectRatio > 1:
